@@ -1,0 +1,70 @@
+	/* contact.html */
+@charset "utf-8";
+
+.contact-main-block {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	margin: 0px 184px 63px 184px;
+}
+
+.contact-text-item {
+    display: inline-block;
+    margin-right: 164px;
+}
+ 
+.contact-text-item h3 {
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.contact-sub-text {
+    margin-left: -135px;
+}
+
+.contact-text p {
+    margin-top: 15px;
+    font-family: raleway;
+    font-weight: regular;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contact-grafik {
+    margin-top: 4px;
+    display: inline-block;
+    margin-left: 186px;
+    font-family: raleway;
+    font-weight: regular;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contact-info {
+    display: inline-block;
+    margin-left: 186px;
+    margin-top: 68px;
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.contact-nomer {
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 186px;
+    font-family: raleway;
+    font-weight: regular;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contact-map {
+	width: 356px;
+	height: 238px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}

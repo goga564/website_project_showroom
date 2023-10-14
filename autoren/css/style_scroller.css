@@ -1,0 +1,47 @@
+#scrollToTopButton {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-family: Merriweather;
+	font-size: 20px;
+	border: 3px solid #FF4D00;
+	background: rgba(255, 255, 255, 0.5);
+	color: #000;
+	cursor: pointer;
+	padding: 1px 6px;
+	border-radius: 19px;
+	z-index: 1000; /*top*/
+		/*anim*/
+	opacity: 0;
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+	transition: color 0.1s, text-shadow 0.1s;
+}
+
+#scrollToTopButton:hover {
+	color: #FF4D00;
+	text-shadow: 0 0 6px #6C6C6C;
+}
+
+@keyframes scrlBFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes scrlBFadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
